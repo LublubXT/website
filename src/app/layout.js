@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Poppins, Space_Grotesk } from "next/font/google";
 // import sparktoapplogoblue from "./sparktoapplogoblue.png";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
     title: "SparkToApp - Post and Find App Ideas with Ease",
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
                     sizes="32x32"
                 /> */}
             </head>
+
             <body
                 className={`${poppins.variable} ${space_grotesk.variable} font-sans`}
             >
