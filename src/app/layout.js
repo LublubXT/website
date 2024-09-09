@@ -32,6 +32,12 @@ export default function RootLayout({ children }) {
                     name="viewport"
                     content="width=device-width, initial-scale=1.0"
                 />
+                <script
+                    async
+                    src="http://localhost:3000/tracker.js"
+                    data-ackee-server="http://localhost:3000"
+                    data-ackee-domain-id="bc899ea5-7587-4f50-8d96-9d9875127e0a"
+                ></script>
                 {/* <link
                     rel="icon"
                     href={sparktoapplogoblue}
