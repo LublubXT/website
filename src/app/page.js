@@ -559,7 +559,8 @@ export default function Home() {
                     </h1>
                     <p className="font-space max-w-[450px] mx-auto mt-5 mb-7 opacity-75 text-center">
                         I talk about building and launching SaaS apps, and my
-                        journey as a SaaS developer.
+                        journey as a SaaS developer. I will also give exclusive
+                        deals and discounts for my current and future apps.
                     </p>
                 </div>
                 <div>
