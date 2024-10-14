@@ -56,6 +56,12 @@ export default function Footer() {
                             >
                                 Pricing
                             </Link>
+                            <Link
+                                href={"/#newsletter"}
+                                class="text-gray-600 hover:text-gray-800"
+                            >
+                                Newsletter
+                            </Link>
                         </nav>
                     </div>
                     <div class="w-full px-4 max-md:text-center">

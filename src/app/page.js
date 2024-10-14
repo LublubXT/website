@@ -549,6 +549,43 @@ export default function Home() {
                     </form>
                 </div>
             </div>
+            <div
+                id="newsletter"
+                className="px-5 flex flex-col gap-5 items-center py-32 pb-16"
+            >
+                <div>
+                    <h1 className="font-bold text-center text-5xl">
+                        Join My Newsletter!
+                    </h1>
+                    <p className="font-space max-w-[450px] mx-auto mt-5 mb-7 opacity-75 text-center">
+                        I talk about building and launching SaaS apps, and my
+                        journey as a SaaS developer.
+                    </p>
+                </div>
+                <div>
+                    <iframe
+                        src="https://embeds.beehiiv.com/20191b83-a539-43b5-ae0b-f147c87f27f1?slim=true"
+                        data-test-id="beehiiv-embed"
+                        height="52"
+                        frameborder="0"
+                        scrolling="no"
+                        style={{
+                            margin: 0,
+                            borderRadius: 0,
+                            backgroundColor: "transparent",
+                        }}
+                    ></iframe>
+                    <p className="opacity-75 text-center mt-2 font-space">
+                        Powered by{" "}
+                        <a
+                            className="btn btn-xs btn-accent"
+                            href="https://www.beehiiv.com?via=Caleb-Gross"
+                        >
+                            Beehiiv
+                        </a>
+                    </p>
+                </div>
+            </div>
             <Footer />
         </div>
     );

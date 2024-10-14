@@ -70,11 +70,18 @@ export default function Navbar({ menuimage, logoimage, closeimage }) {
                             Pricing
                         </Link>
                         <Link
+                            href={"/#newsletter"}
+                            className="hover:text-gray-900 font-space cursor-pointer"
+                        >
+                            Newsletter
+                        </Link>
+                        <Link
                             href={"/#contact"}
                             className="hover:text-gray-900 font-space cursor-pointer"
                         >
                             Contact
                         </Link>
+
                         <button className="font-space btn btn-secondary shadow-lg shadow-secondary/50">
                             Sign Up
                         </button>
@@ -116,6 +123,12 @@ export default function Navbar({ menuimage, logoimage, closeimage }) {
                         className="hover:text-gray-900 font-space cursor-pointer"
                     >
                         Pricing
+                    </Link>
+                    <Link
+                        href={"/#newsletter"}
+                        className="hover:text-gray-900 font-space cursor-pointer"
+                    >
+                        Newsletter
                     </Link>
                     <Link
                         href={"/#contact"}

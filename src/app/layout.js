@@ -3,6 +3,7 @@ import { Poppins, Space_Grotesk } from "next/font/google";
 // import sparktoapplogoblue from "./sparktoapplogoblue.png";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+const ackeeTracker = require("ackee-tracker");
 
 export const metadata = {
     title: "SparkToApp - Post and Find App Ideas with Ease",
@@ -32,12 +33,31 @@ export default function RootLayout({ children }) {
                     name="viewport"
                     content="width=device-width, initial-scale=1.0"
                 />
+                {/* <script
+                    async
+                    src="dist/ackee-tracker.min.js"
+                    data-ackee-server="https://localhost:3000"
+                    data-ackee-domain-id="bc899ea5-7587-4f50-8d96-9d9875127e0a"
+                    data-ackee-opts='{ "ignoreLocalhost": true, "detailed": true, "ignoreOwnVisits": true }'
+                ></script> */}
+                {/* <script src="dist/ackee-tracker.min.js"></script>
+
+                <script>
+                    ackeeTracker.create('https://localhost:3000').record('bc899ea5-7587-4f50-8d96-9d9875127e0a')
+                </script> */}
                 <script
                     async
                     src="http://localhost:3000/tracker.js"
                     data-ackee-server="http://localhost:3000"
                     data-ackee-domain-id="bc899ea5-7587-4f50-8d96-9d9875127e0a"
+                    data-ackee-opts='{ "ignoreLocalhost": false, "detailed": true, "ignoreOwnVisits": false }'
                 ></script>
+                {/* <script
+                    async
+                    src="http://localhost:3000/tracker.js"
+                    data-ackee-server="http://localhost:3000"
+                    data-ackee-domain-id="bc899ea5-7587-4f50-8d96-9d9875127e0a"
+                ></script> */}
                 {/* <link
                     rel="icon"
                     href={sparktoapplogoblue}
