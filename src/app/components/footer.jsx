@@ -62,18 +62,24 @@ export default function Footer() {
                             >
                                 Newsletter
                             </Link>
-                        </nav>
-                    </div>
-                    <div class="w-full px-4 max-md:text-center">
-                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                            CONTACT
-                        </h2>
-                        <nav class="">
                             <Link
                                 href={"/#contact"}
                                 class="text-gray-600 hover:text-gray-800"
                             >
                                 Contact Me
+                            </Link>
+                        </nav>
+                    </div>
+                    <div class="w-full px-4 max-md:text-center">
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+                            OTHER
+                        </h2>
+                        <nav class="">
+                            <Link
+                                href={"https://www.daisylanding.com/"}
+                                class="text-gray-600 hover:text-gray-800"
+                            >
+                                DaisyLanding
                             </Link>
                         </nav>
                     </div>
